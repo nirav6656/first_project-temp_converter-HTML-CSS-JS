@@ -19,7 +19,7 @@ const calculatetemp = () => {
         document.getElementById('resultcontainer').innerHTML = `= ${result1} °Fahrenheit`;
     }else{
         result2 = farentocel(beforetemperature);
-        document.getElementById('resultcontainer').innerHTML = `${result2} °Celsius`;
+        document.getElementById('resultcontainer').innerHTML = `=${result2} °Celsius`;
     }
 
 }
